@@ -1,0 +1,47 @@
+body{
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+}
+.parent{
+    width: 80%;
+    height: 25%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hours{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.minutes{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.seconds{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sep{
+    font-size: 50px;
+}
